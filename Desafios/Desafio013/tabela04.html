@@ -28,6 +28,10 @@
             background-color: gray;
         }
 
+        td.num{
+            text-align: center;
+        }
+
 
         
     </style>
@@ -37,11 +41,16 @@
 
     <table>
         <thead>
-            <th scope="col">ÁREA</th>
-            <th scope="col">DISCIPLINAS</th>            
-            <th scope="col">NOTA 1</th>
-            <th scope="col">NOTA 2</th>
-            <th scope="col">MÉDIA</th> 
+            <tr>
+                <th rowspan="2" scope="col">ÁREA</th>
+                <th rowspan="2" scope="col">DISCIPLINAS</th>
+                <th colspan="2" scope="colgroup">NOTAS</th>
+                <th rowspan="2" scope="col">MÉDIA</th>
+            </tr>
+            <tr>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
 
         </thead>
 
@@ -49,55 +58,55 @@
             <tr>
                 <th rowspan="4" scope="rowgroup">EXATAS</th>
                 <td>MATEMÁTICA</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
             </tr>
 
             <tr>
                 <td>FÍSICA</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
             </tr>
 
             <tr>
                 <td>QUÍMICA</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
             </tr>
 
             <tr>
                 <td>BIOLOGIA</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
             </tr>
 
             <tr class="media">
                 <th colspan="4" scope="row">MÉDIA DE EXATAS</th>
-                <td>0.0</td>
+                <td class="num">0.0</td>
             </tr>
 
             <tr>
                 <th rowspan="2" scope="rowgroup">HUMANAS</th>
                 <td>HISTÓRIA</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
             </tr>
 
             <tr>
-                <td>GEOGRAFIA</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td class="num">GEOGRAFIA</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
             </tr>
 
             <tr class="media">
                 <th colspan="4" scope="row">MÉDIA DE HUMANAS</th>
-                <td>0.0</td>
+                <td class="num">0.0</td>
             </tr>
 
             
